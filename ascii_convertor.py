@@ -27,7 +27,7 @@ def getAverageL(image):
 
 
 # open image and convert to grayscale
-source_image_name = "Neo.jpg"
+source_image_name = "moto.jpg"
 source_image_path = os.getcwd() + "\\" + source_image_name
 # PA = palettised 256 colors with Alpha channel, L = luminance (grayscale), RGB
 image = Image.open(source_image_path).convert('L')
@@ -38,7 +38,7 @@ print(f"source image dimensions: {W} x {H} px" )
 
 # set scale default as 0.43 which suits
 # a Courier font
-scale = 1
+scale = 0.43
 cols = 200
 
 # compute width of tile
