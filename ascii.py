@@ -8,7 +8,7 @@ charArray = list(chars)
 charLength = len(charArray)
 interval = charLength/256
 
-scaleFactor = 0.09
+scaleFactor = 0.1
 
 oneCharWidth = 10
 oneCharHeight = 18
@@ -18,7 +18,7 @@ def getChar(inputInt):
 
 text_file = open("Output.txt", "w")
 
-im = Image.open("car.jpg")
+im = Image.open("Neo.jpg")
 
 fnt = ImageFont.truetype('C:\\Windows\\Fonts\\lucon.ttf', 15)
 
